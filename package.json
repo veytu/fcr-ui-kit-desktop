@@ -1,7 +1,6 @@
 {
-  "name": "agora-scenario-ui-kit-desktop",
+  "name": "agora-scenario-ui-kit",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "ssh://git@git.agoralab.co/aduc/agora-scenario-ui-kit-desktop.git",
   "author": "renyifei <renyifei@agora.io>",
   "license": "MIT"
