@@ -193,4 +193,5 @@ export enum SvgIconEnum {
   FCR_RECORDING_END = 'fcr_recording_end',
 
   FCR_WIZARD_ARROW = 'fcr_wizard_arrow',
+  FCR_PPT_BROKEN = 'fcr_ppt_broken'
 }
