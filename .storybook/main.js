@@ -5,7 +5,7 @@ module.exports = {
   typescript: {
     reactDocgen: 'react-docgen',
   },
-  stories: [path.resolve(__dirname, '../src/components/**/*.stories.@(ts|tsx)')],
+  stories: ['../src/components/**/*.stories.@(ts|tsx)'],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
