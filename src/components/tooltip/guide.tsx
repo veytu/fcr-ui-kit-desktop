@@ -72,14 +72,15 @@ export const GuideToolTip: FC<GuideToolTipProps> = (props) => {
     color: colors['text-1'],
     borderRadius: `${borderRadius[8]}`,
   };
+  const iconColor = props.overlayInnerStyle?.background || colors['brand'][6];
   return (
     <ToolTip
       arrowContent={
         <SvgImg
           type={SvgIconEnum.FCR_TOOLTIP_ARROW}
           colors={{
-            iconPrimary: colors['brand'][6],
-            iconSecondary: colors['brand'][6],
+            iconPrimary: iconColor as string,
+            iconSecondary: iconColor as string,
           }}
           size={16}></SvgImg>
       }
