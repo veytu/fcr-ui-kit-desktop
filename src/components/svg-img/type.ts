@@ -30,6 +30,7 @@ export enum SvgIconEnum {
   FCR_COUNTDOWN_DOWN = 'fcr_countdown_down',
   FCR_COUNTDOWN_UP = 'fcr_countdown_up',
   FCR_DELETE3 = 'fcr_delete3',
+  FCR_DELETE4 = 'fcr_delete4',
   FCR_DOWN = 'fcr_down',
   FCR_DOWN1 = 'fcr_down1',
   FCR_DROPDOWN = 'fcr_dropdown',
