@@ -1,7 +1,7 @@
 import { PathOptions } from '../svg-dict';
 
 export const path = ({ iconPrimary }: PathOptions) => (
-  <g>
+  <g fill="none">
     <circle cx="15" cy="15.0001" r="5" fill={iconPrimary} />
     <circle
       cx="15"
