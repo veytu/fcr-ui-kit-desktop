@@ -1,8 +1,9 @@
+import React from 'react';
 import { PathOptions } from '../svg-dict';
 
 export const path = ({ iconPrimary }: PathOptions) => (
-  <g>
-    <circle cx="14.5" cy="14.4998" r="2.5" fill={iconPrimary} />
+  <g fill="none">
+    <circle cx="15" cy="15.0001" r="2.5" fill={iconPrimary} stroke={iconPrimary} />
     <circle
       cx="15"
       cy="15"
