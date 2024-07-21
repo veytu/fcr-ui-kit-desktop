@@ -198,6 +198,7 @@ export enum SvgIconEnum {
   FCR_WIZARD_ARROW = 'fcr_wizard_arrow',
   FCR_PPT_BROKEN = 'fcr_ppt_broken',
   FCR_V2_SUBTITIES = 'fcr_v2_subtities',
+  FCR_V2_RTT = 'fcr_v2_rtt',
   FCR_V2_RIGHT = 'fcr_v2_right',
   FCR_V2_REFRESH = 'fcr_v2_refresh',
   FCR_V2_HEAR = 'fcr_v2_hear'
