@@ -109,7 +109,7 @@ export const Toast = (props: ToastProps) => {
           paddingRight: closable ? '10px' : '0',
         }}
         className={classNames('fcr-toast-container-content')}>
-        <span>{content}</span>
+      <span dangerouslySetInnerHTML={{ __html: content }} />
       </div>
       {action && (
         <div
