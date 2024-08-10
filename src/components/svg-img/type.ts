@@ -220,4 +220,12 @@ export enum SvgIconEnum {
   FCR_PPT_BROKEN = 'fcr_ppt_broken',
   FCR_H5_DEVICE = 'fcr_h5_device',
   FCR_COMPUTER_DEVICE = 'fcr_computer_device',
+
+  FCR_V2_CHOOSE = 'fcr_v2_choose',
+  FCR_CHOOSE_VERTICAL_RECT = 'fcr_choose_vertical_rect',
+  FCR_V2_CHEVRON_LEFT = 'fcr_v2_chevron_left',
+  FCR_V2_CHEVRON_RIGHT = 'fcr_v2_chevron_right',
+  FCR_V2_CHEVRON_DOUBLE_RIGHT = 'fcr_v2_chevron_double_right',
+  FCR_V2_LOGOUT = 'fcr_v2_logout',
+  FCR_V2_FOLD_BTN = 'fcr_v2_fold_btn',
 }
