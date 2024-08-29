@@ -1,6 +1,6 @@
 import { themeVal } from '../../utils/tailwindcss';
 import classNames from 'classnames';
-import { useEffect, useRef, useState } from 'react';
+import { ReactNode, useEffect, useRef, useState } from 'react';
 import { SvgIconEnum, SvgImg } from '../svg-img';
 import ReactDOM, { unmountComponentAtNode } from 'react-dom';
 import { CSSTransition } from 'react-transition-group';
@@ -24,7 +24,7 @@ interface ToastProps {
   /** @en
    * The content of toast.
    */
-  content: string;
+  content: string | ReactNode;
   /**
    * 消息是否显示关闭按钮
    */
@@ -109,8 +109,8 @@ export const Toast = (props: ToastProps) => {
           paddingRight: closable ? '10px' : '0',
         }}
         className={classNames('fcr-toast-container-content')}>
-      <span dangerouslySetInnerHTML={{ __html: content }} />
-      </div>
+        <span>{content}</span>
+        </div>
       {action && (
         <div
           className={classNames('fcr-toast-container-action', 'fcr-divider')}
