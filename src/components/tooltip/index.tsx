@@ -157,7 +157,6 @@ export const ToolTip: FC<ToolTipProps> = (props) => {
 
   return (
     <RcToolTip
-      
       destroyTooltipOnHide
       afterVisibleChange={afterVisibleChange}
       mouseLeaveDelay={mouseLeaveDelay}
