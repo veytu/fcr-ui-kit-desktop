@@ -1,6 +1,6 @@
 import { themeVal } from '../../utils/tailwindcss';
 import classNames from 'classnames';
-import { useEffect, useRef, useState } from 'react';
+import { ReactNode, useEffect, useRef, useState } from 'react';
 import { SvgIconEnum, SvgImg } from '../svg-img';
 import ReactDOM, { unmountComponentAtNode } from 'react-dom';
 import { CSSTransition } from 'react-transition-group';
@@ -24,7 +24,7 @@ interface ToastProps {
   /** @en
    * The content of toast.
    */
-  content: string;
+  content: string|ReactNode;
   /**
    * 消息是否显示关闭按钮
    */

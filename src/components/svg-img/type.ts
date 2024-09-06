@@ -147,6 +147,8 @@ export enum SvgIconEnum {
   FCR_V2_QUITE = 'fcr_v2_quite',
   FCR_V2_SEARCH = 'fcr_v2_search',
   FCR_V2_SIGNAL_BAD = 'fcr_v2_signal_bad',
+  FCR_V2_SIGNAL_BAD_FULL = 'fcr_v2_signal_bad_full',
+  FCR_V2_SIGNAL_NONE = 'fcr_v2_signal_none',
   FCR_V2_SIGNAL_GOOD = 'fcr_v2_signal_good',
   FCR_V2_SIGNAL_NORMAL = 'fcr_v2_signal_normal',
   FCR_V2_TANHAO_ALART = 'fcr_v2_tanhao_alart',
@@ -193,5 +195,16 @@ export enum SvgIconEnum {
   FCR_RECORDING_END = 'fcr_recording_end',
 
   FCR_WIZARD_ARROW = 'fcr_wizard_arrow',
-  FCR_PPT_BROKEN = 'fcr_ppt_broken'
+  FCR_PPT_BROKEN = 'fcr_ppt_broken',
+  FCR_CHAT_LIST_EMPTY = 'fcr_chat_list_empty',
+  FCR_CHAT_LIST_AGENT = 'fcr_chat_list_agent',
+
+  FCR_ICON_CAMERA_DISABLE = 'fcr_icon_camera_disable',
+  FCR_ICON_CAMERA_ENABLE = 'fcr_icon_camera_enable',
+  FCR_ICON_CAMERA_NONE = 'fcr_icon_camera_none',
+  FCR_ICON_MIC_DISABLE = 'fcr_icon_mic_disable',
+  FCR_ICON_MIC_ENABLE = 'fcr_icon_mic_enable',
+  FCR_ICON_MIC_NONE = 'fcr_icon_mic_none',
+  FCR_TOAST_STATE_ERROR = 'fcr_toast_state_error'
+
 }
