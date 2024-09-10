@@ -169,6 +169,8 @@ export enum SvgIconEnum {
   FCR_VIDEOBACK = 'fcr_videoback',
   FCR_WHITEBOARD = 'fcr_whiteboard',
   WHITEBOARDEDIT = 'whiteboardedit',
+  WHITEBOARDFULLSCREEN_LANDSCAPE_CLOSE = 'whiteboard-fullscreen-landscape-close',
+  WHITEBOARDFULLSCREEN_LANDSCAPE = 'whiteboard-fullscreen-landscape',
   FCR_WHITEBOARD_BACK = 'fcr_whiteboard_back',
   FCR_WHITEBOARD_CLOUD = 'fcr_whiteboard_cloud',
   FCR_WHITEBOARD_ELIMINATE = 'fcr_whiteboard_eliminate',
