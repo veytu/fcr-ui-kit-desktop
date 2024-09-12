@@ -200,6 +200,10 @@ export enum SvgIconEnum {
   FCR_WHITEBOARD_TEXT = 'fcr_whiteboard_text',
   FCR_WHITEBOARD_TOOLBOX = 'fcr_whiteboard_toolbox',
   FCR_WHITECHOOSE = 'fcr_whitechoose',
+  FCR_WHITECHOOSE_NEW = 'fcr_whitechoose-new',
+  FCR_WHITECHOOSE_PEN = 'fcr_whitechoose-pen',
+
+  
   FCR_WHITEBOARD_TOOLS = 'fcr_whiteboard_tools',
   FCR_CLEANWHITEBOARD = 'fcr_cleanwhiteboard',
   FCR_MOBILE_NEWWHITEBOARDPAGE = 'fcr_mobile_newwhiteboardpage',
