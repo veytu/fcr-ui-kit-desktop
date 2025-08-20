@@ -4,6 +4,7 @@
 }
 .fcr-table table {
   width: 100%;
+  table-layout: auto !important;
 }
 .fcr-table .fcr-table-thead {
   @apply fcr-bg-4;
